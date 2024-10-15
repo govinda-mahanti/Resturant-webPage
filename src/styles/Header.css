@@ -1,0 +1,33 @@
+.navMenu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navMenu>li{
+    margin: 0px 20px;
+}
+
+.navMenu>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.drawMenu{
+    list-style: none;
+}
+
+.drawMenu>li{
+    margin-top: 20px;
+}
+.drawMenu>li>a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+.active{
+    color: goldenrod !important;
+    font-weight: bold !important;
+}
